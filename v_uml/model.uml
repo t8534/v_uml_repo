@@ -5,8 +5,13 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_aGhVEHPPEeSq4s08qKeEUw" name="SYS_FreeRunningTimer"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_zfFrYHPFEeSq4s08qKeEUw" name="APP">
-    <packagedElement xmi:type="uml:Component" xmi:id="_QyA2sMGVEeSUypnybj2BLA" name="APP_GUI"/>
-    <packagedElement xmi:type="uml:Component" xmi:id="_4T2CMMGVEeSUypnybj2BLA" name="APP_CLI"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_QyA2sMGVEeSUypnybj2BLA" name="APP_UI">
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_4T2CMMGVEeSUypnybj2BLA" name="APP_CLI"/>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_ocxx0MMUEeSZNribpr4maw" name="APP_GUI"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HfQ30MMoEeSFx7p_MsATqQ" name="COM_Comm">
+      <packagedElement xmi:type="uml:Component" xmi:id="_OfhOgMMoEeSFx7p_MsATqQ" name="COM_Protocol"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_YmcmsMFxEeSnhZxLGpCkzA" name="HAL">
     <packagedElement xmi:type="uml:Component" xmi:id="_wkdKEMGUEeSUypnybj2BLA" name="HAL_Display"/>
@@ -21,5 +26,6 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_nrLpYHPOEeSq4s08qKeEUw" name="MCAL_PWM_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_rGw_cHPOEeSq4s08qKeEUw" name="MCAL_Timer_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_PGNewHPOEeSq4s08qKeEUw" name="MCAL_SPI_Driver"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_3Px2oMMVEeSZNribpr4maw" name="MCAL_ISR"/>
   </packagedElement>
 </uml:Model>

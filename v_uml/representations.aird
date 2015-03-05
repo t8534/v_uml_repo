@@ -227,27 +227,27 @@
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_YmCekMGTEeSUypnybj2BLA" name="APP Component Diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_YmCelsGTEeSUypnybj2BLA" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_YmCel8GTEeSUypnybj2BLA" type="Sirius" element="_YmCekMGTEeSUypnybj2BLA" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_YmCemcGTEeSUypnybj2BLA" type="2001" element="_YmCekcGTEeSUypnybj2BLA">
-            <children xmi:type="notation:Node" xmi:id="_YmCenMGTEeSUypnybj2BLA" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_YmCencGTEeSUypnybj2BLA" y="5"/>
+          <children xmi:type="notation:Node" xmi:id="_hbLXUMMUEeSZNribpr4maw" type="2001" element="_ha4cYMMUEeSZNribpr4maw">
+            <children xmi:type="notation:Node" xmi:id="_hbVIUMMUEeSZNribpr4maw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_hbVIUcMUEeSZNribpr4maw" y="5"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_YmCensGTEeSUypnybj2BLA" type="3005" element="_YmCeksGTEeSUypnybj2BLA">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_YmCen8GTEeSUypnybj2BLA" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmCeoMGTEeSUypnybj2BLA"/>
+            <children xmi:type="notation:Node" xmi:id="_hboDQMMUEeSZNribpr4maw" type="3005" element="_ha4cYcMUEeSZNribpr4maw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_hboDQcMUEeSZNribpr4maw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hboDQsMUEeSZNribpr4maw"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_YmCemsGTEeSUypnybj2BLA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YmCem8GTEeSUypnybj2BLA" width="439" height="89"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hbLXUcMUEeSZNribpr4maw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hbLXUsMUEeSZNribpr4maw" x="329" y="240" width="439" height="90"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_YmCemMGTEeSUypnybj2BLA"/>
         </data>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YmCekcGTEeSUypnybj2BLA" width="-1" height="-1" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ha4cYMMUEeSZNribpr4maw" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="uml:Package" href="model.uml#_zfFrYHPFEeSq4s08qKeEUw"/>
         <semanticElements xmi:type="uml:Package" href="model.uml#_zfFrYHPFEeSq4s08qKeEUw"/>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YmCeksGTEeSUypnybj2BLA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.uml2.design/icons/empty.svg">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_YmCek8GTEeSUypnybj2BLA"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ha4cYcMUEeSZNribpr4maw" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.uml2.design/icons/empty.svg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ha4cYsMUEeSZNribpr4maw"/>
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Reused%20Description']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_YmCelMGTEeSUypnybj2BLA"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ha4cY8MUEeSZNribpr4maw"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Reused%20Description']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']"/>
       </ownedDiagramElements>
