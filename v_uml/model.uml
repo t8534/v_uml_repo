@@ -18,7 +18,29 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_27MpsMGUEeSUypnybj2BLA" name="HAL_Kbd"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_7CUQEMGUEeSUypnybj2BLA" name="HAL_Sound"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_-75JsMGUEeSUypnybj2BLA" name="HAL_Sensor"/>
-    <packagedElement xmi:type="uml:Component" xmi:id="_yG5-0MGVEeSUypnybj2BLA" name="HAL_ComStack"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_yG5-0MGVEeSUypnybj2BLA" name="HAL_ComStack">
+      <nestedClassifier xmi:type="uml:Component" xmi:id="__b9n4MlKEeSerYfUTLcrFA" name="ComStack">
+        <ownedComment xmi:id="_3TcMIMlLEeSerYfUTLcrFA" annotatedElement="__b9n4MlKEeSerYfUTLcrFA">
+          <body>Interface:&#xD;
+- Send(buffer, len)&#xD;
+- Recv(buffer, len) // blocked, wait for incoming data.&#xD;
+- Nofity - when incoming data queue not empty.&#xD;
+&#xD;
+Notes:&#xD;
+ComStack has logical part where input data queue, notification error supoort is processed.&#xD;
+ComStack has generic COM Drivers linked to HW HAL_Drivers supporting BT, UART, USB, etc.&#xD;
+&#xD;
+Remarks:&#xD;
+Maybe ComStack should be in the APP space, because what about Protocol layer ?&#xD;
+Where Protocol should be located ?&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+</body>
+        </ownedComment>
+      </nestedClassifier>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_iksYgMFxEeSnhZxLGpCkzA" name="MCAL">
     <packagedElement xmi:type="uml:Component" xmi:id="_VF8zoHPOEeSq4s08qKeEUw" name="MCAL_I2C_Driver"/>
@@ -27,5 +49,10 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_rGw_cHPOEeSq4s08qKeEUw" name="MCAL_Timer_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_PGNewHPOEeSq4s08qKeEUw" name="MCAL_SPI_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_3Px2oMMVEeSZNribpr4maw" name="MCAL_ISR"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_fMRNQMlKEeSerYfUTLcrFA" name="RTOS">
+    <packagedElement xmi:type="uml:Package" xmi:id="_lb9psMlKEeSerYfUTLcrFA" name="UI task"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ouvCAMlKEeSerYfUTLcrFA" name="Comm task"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t5gdwMlKEeSerYfUTLcrFA" name="Sensor data processing task"/>
   </packagedElement>
 </uml:Model>
