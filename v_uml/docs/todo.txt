@@ -1,0 +1,28 @@
+
+1.
+Add Views (Models):
+
+User Cases View
+
+Static Composition View
+
+Dynamic Behaviour View
+
+
+2.
+Add cfg module, to manage app configuration.
+
+
+3.
+Add pm (Power Mode) module.
+
+
+4.
+Add Healt System Monitoring at the start up, test RAM etc, and decide
+to start app or stop with error.
+
+
+5.
+Add general state machine to show app status, so most of the time in
+the idle, and the transitions to leave idle state.
+ 

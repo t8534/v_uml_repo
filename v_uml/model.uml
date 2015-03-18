@@ -9,7 +9,7 @@
       <nestedClassifier xmi:type="uml:Component" xmi:id="_4T2CMMGVEeSUypnybj2BLA" name="APP_CLI"/>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_ocxx0MMUEeSZNribpr4maw" name="APP_GUI"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_HfQ30MMoEeSFx7p_MsATqQ" name="COM_Comm">
+    <packagedElement xmi:type="uml:Component" xmi:id="_HfQ30MMoEeSFx7p_MsATqQ" name="COM_Com">
       <packagedElement xmi:type="uml:Component" xmi:id="_OfhOgMMoEeSFx7p_MsATqQ" name="COM_Protocol"/>
     </packagedElement>
   </packagedElement>
