@@ -1,12 +1,14 @@
 
 1.
-Add Views (Models):
+Add Views (Models) on the app level:
 
 User Cases View
 
 Static Composition View
 
 Dynamic Behaviour View
+
+
 
 
 2.
@@ -25,4 +27,9 @@ to start app or stop with error.
 5.
 Add general state machine to show app status, so most of the time in
 the idle, and the transitions to leave idle state.
+ 
+ 
+6.
+The same modules should be used in both rtos and loop versions.
+
  

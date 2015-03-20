@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jU57wHPFEeSq4s08qKeEUw" name="B">
-  <packagedElement xmi:type="uml:Package" xmi:id="_u-1MQHPFEeSq4s08qKeEUw" name="SYS">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jU57wHPFEeSq4s08qKeEUw" name="V top (application) level model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_u-1MQHPFEeSq4s08qKeEUw" name="sys">
     <packagedElement xmi:type="uml:Component" xmi:id="_OzbfkMGUEeSUypnybj2BLA" name="SYS_SysTickTimer"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_aGhVEHPPEeSq4s08qKeEUw" name="SYS_FreeRunningTimer"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_zfFrYHPFEeSq4s08qKeEUw" name="APP">
-    <packagedElement xmi:type="uml:Component" xmi:id="_QyA2sMGVEeSUypnybj2BLA" name="APP_UI">
-      <nestedClassifier xmi:type="uml:Component" xmi:id="_4T2CMMGVEeSUypnybj2BLA" name="APP_CLI"/>
-      <nestedClassifier xmi:type="uml:Component" xmi:id="_ocxx0MMUEeSZNribpr4maw" name="APP_GUI"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_HfQ30MMoEeSFx7p_MsATqQ" name="COM_Com">
-      <packagedElement xmi:type="uml:Component" xmi:id="_OfhOgMMoEeSFx7p_MsATqQ" name="COM_Protocol"/>
-    </packagedElement>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_YmcmsMFxEeSnhZxLGpCkzA" name="HAL">
+  <packagedElement xmi:type="uml:Package" xmi:id="_YmcmsMFxEeSnhZxLGpCkzA" name="hal">
     <packagedElement xmi:type="uml:Component" xmi:id="_wkdKEMGUEeSUypnybj2BLA" name="HAL_Display"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_27MpsMGUEeSUypnybj2BLA" name="HAL_Kbd"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_7CUQEMGUEeSUypnybj2BLA" name="HAL_Sound"/>
@@ -42,7 +33,7 @@ Where Protocol should be located ?&#xD;
       </nestedClassifier>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_iksYgMFxEeSnhZxLGpCkzA" name="MCAL">
+  <packagedElement xmi:type="uml:Package" xmi:id="_iksYgMFxEeSnhZxLGpCkzA" name="mcal">
     <packagedElement xmi:type="uml:Component" xmi:id="_VF8zoHPOEeSq4s08qKeEUw" name="MCAL_I2C_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_ZaYdQHPOEeSq4s08qKeEUw" name="MCAL_UART_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_nrLpYHPOEeSq4s08qKeEUw" name="MCAL_PWM_Driver"/>
@@ -50,9 +41,19 @@ Where Protocol should be located ?&#xD;
     <packagedElement xmi:type="uml:Component" xmi:id="_PGNewHPOEeSq4s08qKeEUw" name="MCAL_SPI_Driver"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_3Px2oMMVEeSZNribpr4maw" name="MCAL_ISR"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Model" xmi:id="_fMRNQMlKEeSerYfUTLcrFA" name="RTOS">
-    <packagedElement xmi:type="uml:Package" xmi:id="_lb9psMlKEeSerYfUTLcrFA" name="UI task"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_ouvCAMlKEeSerYfUTLcrFA" name="Comm task"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_t5gdwMlKEeSerYfUTLcrFA" name="Sensor data processing task"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_BL8soM7OEeSFEemCChbwCQ" name="ui">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Kn97IM7OEeSFEemCChbwCQ" name="cli"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_M0HCkM7OEeSFEemCChbwCQ" name="gui"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_RLD0sM7OEeSFEemCChbwCQ" name="rtos">
+    <packagedElement xmi:type="uml:Component" xmi:id="_anq5EM7OEeSFEemCChbwCQ" name="RTOS_task_ui"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_dM9gUM7OEeSFEemCChbwCQ" name="RTOS_task_com"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_gArlIM7OEeSFEemCChbwCQ" name="RTOS_task_sensor_data"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_g_vY8M7PEeSFEemCChbwCQ" name="RTOS_task_init"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_oh70gM7OEeSFEemCChbwCQ" name="com">
+    <packagedElement xmi:type="uml:Component" xmi:id="_VkXh0M7PEeSFEemCChbwCQ" name="COM_Prot"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_G1CmoM7PEeSFEemCChbwCQ" name="cfg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KG0gcM7PEeSFEemCChbwCQ" name="pm"/>
 </uml:Model>
