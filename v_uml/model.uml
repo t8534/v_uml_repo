@@ -42,8 +42,11 @@ Where Protocol should be located ?&#xD;
     <packagedElement xmi:type="uml:Component" xmi:id="_3Px2oMMVEeSZNribpr4maw" name="MCAL_ISR"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_BL8soM7OEeSFEemCChbwCQ" name="ui">
-    <packagedElement xmi:type="uml:Package" xmi:id="_Kn97IM7OEeSFEemCChbwCQ" name="cli"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_M0HCkM7OEeSFEemCChbwCQ" name="gui"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_IOafcM7yEeSFEemCChbwCQ" name="UI_Screen"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_LLf7oM7yEeSFEemCChbwCQ" name="UI_ScreenManager"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_OoIakM7yEeSFEemCChbwCQ" name="UI_Kbd"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_RyxKkM7yEeSFEemCChbwCQ" name="UI_Sound"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_U1Wx0M7yEeSFEemCChbwCQ" name="UI_Cli"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_RLD0sM7OEeSFEemCChbwCQ" name="rtos">
     <packagedElement xmi:type="uml:Component" xmi:id="_anq5EM7OEeSFEemCChbwCQ" name="RTOS_task_ui"/>
