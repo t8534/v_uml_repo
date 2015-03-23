@@ -55,7 +55,8 @@ Where Protocol should be located ?&#xD;
     <packagedElement xmi:type="uml:Component" xmi:id="_g_vY8M7PEeSFEemCChbwCQ" name="RTOS_task_init"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_oh70gM7OEeSFEemCChbwCQ" name="com">
-    <packagedElement xmi:type="uml:Component" xmi:id="_VkXh0M7PEeSFEemCChbwCQ" name="COM_Prot"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_VkXh0M7PEeSFEemCChbwCQ" name="COM_Protocol"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_1QJBINFuEeSi_ezcY50Wtw" name="COM_Server"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_G1CmoM7PEeSFEemCChbwCQ" name="cfg"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_KG0gcM7PEeSFEemCChbwCQ" name="pm"/>
